@@ -2,58 +2,100 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 
-}
+    body {
+        background: #1E152A;
 
-body {
-    font-family: 'Roboto', sans-serif;
-    margin:0;
-}
-a {
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    color: aliceblue;
-}
+    }
 
-gray-background {
-    background: #33202A;
-    padding: 50px 0;
-    margin-top: 0%;
-}
-header {
-    background: #33202A;
-    padding: 20px;
-    margin: 0px 0 0 0;
-}
-h1 {
-    color:aliceblue;
-}
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+        margin-right: 50px;
+        gap: 50px;
+    }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
-header nav ul  {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-}
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: #FCFAFA;
+        margin-left: 30px;
+    }
 
-.one {
-    padding: 200px 0;
-    background: #111D4A;
-    color: aliceblue;
-    text-align: center;
-}
+    .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 20px;
 
-.daftar {
-    background: #33202A;
-    color: rgb(255, 255, 255);
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    margin-top: 20px;
-    background: rgb(0, 86, 161);
-}
+    }
+
+    a {
+        text-decoration: none;
+        color: #FCFAFA;
+        font-size: 18px;
+    }
+    .one {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 100px 0;
+        gap: 100px;
+    }
+
+    .one-kiri {
+        flex: 1;
+        margin-left: 5%;
+    }
+
+    .one-kiri h1 {
+        font-size: 48px;
+        color: #FCFAFA;
+        margin-bottom: 20px;
+    }
+
+    .one-kiri p {
+        font-size: 18px;
+        color: #FCFAFA;
+        margin-bottom: 30px;
+    }
+
+    .lihat {
+        padding: 10px 20px;
+        font-size: 18px;
+        color: #FCFAFA;
+        background-color: #6C63FF;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .lihat:hover {
+        background-color: #5a52d4;
+    }
+
+    .lihat:active {
+        background-color: #4a41a8;
+    }
+
+    .lihat:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px rgba(108, 99, 255, 0.5);
+    }
+
+ /* --- Gambar ijazah --- */
+    .one-kanan {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .one-gambar {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-right: 30%;
+        margin-left: 10%;
+    }
