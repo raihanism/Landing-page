@@ -225,3 +225,16 @@ a {
     background: white;
     color: #3b82f6;
 }
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1A1B25;
+    color: #FCFAFA;
+    margin-top: 50px;
+
+}
+
+.footer p {
+    margin-bottom: 30px;
+}
