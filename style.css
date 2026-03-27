@@ -1,3 +1,20 @@
+@media (max-width: 768px) {
+    .one {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .one-kiri {
+        margin-left: 0;
+    }
+
+    .one-gambar {
+        margin: 0;
+        width: 100%;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
